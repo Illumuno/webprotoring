@@ -27,10 +27,8 @@
         <!-- Scripts -->
         <script src="{{ mix('js/app.js') }}" defer></script>
     </head>
-    <body>
-    
+    <body class="bg-gray-300 ">
         @yield('pagecontent')
-
         <script src="{{ asset('bootstrap/css/bootstrap.min.css') }}"></script>
     </body>
 </html>
