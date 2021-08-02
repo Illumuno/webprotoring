@@ -14,11 +14,11 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('admin/dashboard');
 });
 
 Route::get('/Search', function () {
-    return view('Search');
+    return view('layouts/Search');
 });
 
 
